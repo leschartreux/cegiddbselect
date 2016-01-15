@@ -7,10 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cegiddbselect", "cegiddbsel
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_Client|Any CPU = Debug_Client|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D44CB46-B295-4027-9410-475932567DBB}.Debug_Client|Any CPU.ActiveCfg = Debug_Client|Any CPU
+		{4D44CB46-B295-4027-9410-475932567DBB}.Debug_Client|Any CPU.Build.0 = Debug_Client|Any CPU
 		{4D44CB46-B295-4027-9410-475932567DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D44CB46-B295-4027-9410-475932567DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D44CB46-B295-4027-9410-475932567DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
