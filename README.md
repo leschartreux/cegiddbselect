@@ -15,6 +15,6 @@ On atteint vit la limite des 64ko du fichier INI chargé de lister les bases dis
 - Réduit la liste des bases des clients Cegid, pour une meilleur visibilité
 - génère Un fichier .exe compatilbe .NET 3.5 sans aucune autre dépendance ni installation
 
-### Versiosn client et serveur
+### Versions client et serveur
 - La version client recopie en local le fihcier .ini choisi à partir du partage
 - La version serveur permet de travailler avec l'outil d'administration des bases et de mettre à jour le fichier Ini de l'enseignant.
