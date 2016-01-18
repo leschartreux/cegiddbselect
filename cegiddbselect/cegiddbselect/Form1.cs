@@ -16,7 +16,6 @@ namespace cegiddbselect
        
         //Définition des Chemins et des fichiers ini
         private string strLocalIniPath=@"C:\programdata\cegid\";
-        private string strServerShare = @"\\cr-cegid-srv.leschartreux.com\Cegid\";
         private string strIniFile = "CegidPGI.ini";
         private string strIniFilePath="";
         private string strTeacherFile = "";

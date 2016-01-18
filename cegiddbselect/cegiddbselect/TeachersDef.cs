@@ -22,6 +22,8 @@ namespace cegiddbselect
                                                     {6,"PROF 6"},
                                                     {99,"AUTRES"}
                                                 };
+        //définition du paratage sur le serveur
+        private string strServerShare = @"\\cr-cegid-srv\Cegid\";
 
     }
 }
