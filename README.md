@@ -6,9 +6,9 @@ On atteint vit la limite des 64ko du fichier INI chargé de lister les bases dis
 
 ### Principe
 - Eclater le fichier .ini en plusieurs fichiers plus petits. Le regroupement par professeurs s'avère le mieux adapté
-- Ces fichiers se trouvent dans le même dossier que CegidPGI.ini du serveur. Il sont de la form : Cegid_T_n.ini. T= teacher, n= un numéro associé au professeur.Dans le but d'anonymiser les fichiers.
+- Ces fichiers se trouvent dans le même dossier que CegidPGI.ini du serveur. Il sont de la forme : Cegid_T_n.ini. T= teacher, n= un numéro associé au professeur. Dans le but d'anonymiser les fichiers.
 - L'outil permet de sélectionner le fichier INI choisi et de le recopier à la place du CegidPGI.ini.
-- Lancer l'outil avec chanque traitements avec Cegid pour tracailler avec les bases choisies.
+- Lancer l'outil avant chaque lancement de Cegid pour travailler avec les bases choisies.
 
 ### Avantages
 - Palie au problème d'un fichier INI > 64ko tout en conservant 1 seul serveur
@@ -18,3 +18,8 @@ On atteint vit la limite des 64ko du fichier INI chargé de lister les bases dis
 ### Versions client et serveur
 - La version client recopie en local le fihcier .ini choisi à partir du partage
 - La version serveur permet de travailler avec l'outil d'administration des bases et de mettre à jour le fichier Ini de l'enseignant.
+
+### Compilation
+- Modifer le fichiers TeacherDef.cs pour l'adapater aux besoins du site
+- La configuration Debug génère la version Serveur
+- La configuration Debug_Client génère la version client
